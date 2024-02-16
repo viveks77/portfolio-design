@@ -1,0 +1,69 @@
+{
+  "heroSection": {
+    "title": "Batman",
+    "subTitle": "Gotham Vigilante",
+    "description": "✺Here you will find information about what i do."
+  },
+  "aboutSection": {
+    "title": "Creating gadgets and tools for the betterment of humanity.",
+    "description": [
+      "In the shadows of Gotham City, I am the vigilant protector, the Dark Knight who stalks the night. With unwavering determination, I wage a ceaseless battle against crime and corruption, ensuring that justice prevails in the face of darkness.",
+      "Each night brings new challenges, as I traverse the treacherous streets, hunting down criminals and thwarting their nefarious schemes. From the depths of the city's underbelly to the gleaming spires of its skyscrapers, I am relentless in my pursuit of truth and righteousness.",
+      "But my work extends beyond mere physical confrontations. As the World's Greatest Detective, I unravel the mysteries that plague Gotham, piecing together clues and uncovering the hidden truths that lie beneath the surface. With keen intellect and unyielding determination, I solve cases that confound even the most seasoned of law enforcement officials.",
+      "In the shadows of Gotham's towering buildings, I am the silent guardian, the watchful protector. With every breath, I vow to uphold the principles of justice and defend the innocent from the darkness that threatens to consume our city."
+    ],
+    "imgSrc": "https://s1.picswalls.com/wallpapers/2014/02/25/batman-wallpaper_02200775_34.jpg"
+  },
+  "workSection": {
+    "title": "✦ WAYS I CAN AID YOU AND MORE, EMPLOYING MY ARSENAL OF GADGETS AND THE MIGHTY BATMOBILE. GRADUALLY, I'LL ENHANCE MY SKILLS, MASTERING EVERY TOOL AT MY DISPOSAL",
+    "skills": [
+      "Batarang Mastery",
+      "Combat Expertise",
+      "Stealth Tactics",
+      "Interrogation Techniques",
+      "Forensic Analysis",
+      "Detective Skills",
+      "Grappling Hook Proficiency",
+      "Utility Belt Gadgets",
+      "Batmobile Operation",
+      "Strategic Planning",
+      "Master of Disguise",
+      "Bat-Signal Communication"
+    ]
+  },
+  "recentWorkSection": {
+    "title": "",
+    "work": [
+      {
+        "title": "BatClaw",
+        "subTitle": "BatClaw Modeling / Grapple",
+        "imgSrc": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/12dcdf100083021.5f0107c2771eb.jpg",
+        "href": ""
+      },
+      {
+        "title": "BatRang",
+        "subTitle": "BatRang Modeling / Throw",
+        "imgSrc": "https://gothamtrending.files.wordpress.com/2011/10/batman-arkham-city-concept-art-batman-gadgets-batarang.jpg",
+        "href": ""
+      }
+    ]
+  },
+  "contactSection": {
+    "title": "",
+    "socials": [
+      {
+        "title": "linkdin",
+        "href": ""
+      },
+      {
+        "title": "Instagram",
+        "href": ""
+      },
+      {
+        "title": "Dribble",
+        "href": ""
+      }
+    ],
+    "email": "gotham.knight@arkham.com"
+  }
+}

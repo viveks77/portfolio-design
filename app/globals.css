@@ -3,27 +3,47 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary: #0a0a0c;
+  --default: #e6eaee;
+  --secondary: #ffff;
+  --primary-light: #32323245;
+
+  --foreground: #ffffff;
+  --foreground-secondary: #000;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-primary text-foreground;
+
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+@layer components {
+  .btn-link {
+    @apply rounded-3xl bg-primary-light p-3 px-6;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-link:hover {
+    background-color: #1b1b1c;
+    color: white;
+    text-shadow: 0 0 3px #fff;
+  }
+
+  .marque {
+    animation: scrollText 10s infinite linear;
+  }
+}
+
+@keyframes scrollText {
+  from   { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
 }
 
 @layer utilities {
