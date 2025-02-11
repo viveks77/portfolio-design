@@ -36,15 +36,28 @@ body {
     text-shadow: 0 0 3px #fff;
   }
 
-  .marque {
-    animation: scrollText 10s infinite linear;
+  .marquee {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .marquee-content {
+    display: inline-flex;
+    animation: scrollText 40s linear infinite;
+  }
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
   }
 }
 
-@keyframes scrollText {
-  from   { transform: translateX(0%); }
-  to { transform: translateX(-50%); }
-}
 
 @layer utilities {
   .text-balance {
